@@ -19,7 +19,7 @@ if($_POST){
         or die(mysqli_error($conn));
         
         if($insert){
-            echo "<script>alert('Sukses menambahkan pegawai');location.href='tampil_petugas.php';</script>";
+            echo "<script>alert('Sukses menambahkan pegawai');location.href='login_petugas.php';</script>";
         } else {
             echo "<script>alert('Gagal menambahkan pegawai');location.href='tambah_petugas.php';</script>";
         }
